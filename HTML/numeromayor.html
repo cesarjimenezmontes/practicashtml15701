@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Encontrar el numero mayor</title>
+        <script src="/JS/practica2.js"></script>
+        <link rel="stylesheet" href="mayor.css">
+        <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="dark-mayor.css">
+        <link rel="stylesheet" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" href="normal-mayor.css">
+
+    </head>
+    <body>
+        <h1> Encontrar el numero mayor</h1>
+        <form>
+            <div>
+            <label>Inserte el primer numero: </label>
+            <input type="number" id="num1">
+            <br><br>
+            <label>Inserte el segundo numero: </label>
+            <input type="number" id="num2">
+            <br><br>
+            <input type="button" value="Encontrar el número mayor" onclick="Mayor()">
+            <input
+            type="checkbox"
+            id="dark-mode"
+            onclick="document.documentElement.classList.toggle('dark-mode')">
+            </div>
+        </form>
+        <br><br>
+	    
+        
+        
+        
+        <p id="resultado"></p>
+
+    </body>
+</html>
