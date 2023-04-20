@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista</title>
+        <link rel="stylesheet" type="text/css" href="./CSS/eslista.css">
+    </head>
+
+    <div class="task-manager">
+        <h1>Lista de tareas</h1>
+        <form id="task-form">
+            <input
+            type="checkbox"
+            id="dark-mode"
+            onclick="document.documentElement.classList.toggle('dark-mode')"/>
+          <input type="text" id="new-task" placeholder="Ingresar tarea">
+          <button type="submit">Ingrese la tarea</button>
+        </form>
+        <ul id="task-list"></ul>
+      </div>
+      <script src="./JS/listaop.js"></script>
+
+</html>

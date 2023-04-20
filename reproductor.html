@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" href="./CSS/esrepro.css" rel="stylesheet">
+</head>
+    <title>Reproductor de Musica</title>
+  </head>
+<body>
+  <div class="music-player-container">
+  <div class="title-music-container">
+    <h4 class="song-title">Que locura fue Enamorarma de Ti</h4>
+    <span class="song-author">Eddi Santiago</span>
+
+  </div>
+  <div class="controls-music-container">
+    <div class="progres-song-container">
+      <div class="progres-song-container">
+        <span class="progress-bar">
+          <span class="progress"></span>
+        </span>
+      </div>
+    </div>
+    <div class="time-container">
+      <span class="time-left" id="CurrentSOngTime"></span>
+      <samp class="time-left" id="SongLength"></samp>
+      <input
+            type="checkbox"
+            id="dark-mode"
+            onclick="document.documentElement.classList.toggle('dark-mode')"/>
+    </div>
+  </div>
+  <audio controls>
+    <source src="C:/Users/HP/Desktop/musica.mp3">
+  </audio>
+  <div class="main-song-controls">
+  </div>
+   
+  </div>
+  <script src="./JS/repro.js"></script>
+</body>  
+</html>
