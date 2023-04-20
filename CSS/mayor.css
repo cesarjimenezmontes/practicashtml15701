@@ -1,0 +1,47 @@
+body{
+    background-color: cadetblue;
+
+}
+
+button{
+    filter: invert(100%);
+}
+
+
+
+h1{
+    color: brown;
+    font-family: monospace;
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+label{
+    color: brown;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    text-transform: none;
+    font-weight: 400;
+}
+
+p{
+    color: yellow;
+    font-family: monospace;
+    font-size: 15px;
+    text-align: center;
+    text-transform: none;
+    font-weight: 400;
+
+}
+
+.dark-mode{
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+}
+
+.dark-mode a{
+    color: #007acc;
+}
